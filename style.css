@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&family=Victor+Mono:wght@200&display=swap');
+
+body {
+    font-family: 'Tektur';
+}
+
+#container {
+    display: grid;
+    position: absolute;
+    background-color: rgb(1, 161, 161);
+    border: 10px solid transparent;
+    border-radius: 7%;
+    box-shadow: 5px, 2px, black;
+    width: 35rem;
+}
+
+.col, .col-2 {
+    display: inline;
+
+}
+
+.row {
+    display:flexbox;
+}
+
+#display {
+    border-radius: 20%;
+    width: 13rem;
+    height: 3rem;
+    background-color: rgb(87, 87, 87);
+    margin-bottom: 5px;
+    font-size: 2rem;
+    color: white;
+    padding-right: 10px;
+    text-align: right;
+}
+
+button {
+    font-family: 'Victor Mono';
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    height: 3rem;
+    width: 3rem;
+    color: white;
+    background-color: rgb(66, 66, 66);
+    margin: 2px;
+}
+
+button:hover {
+    background-color: black;
+}
+
+#zero {
+    width: 6.5rem;
+}
